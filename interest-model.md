@@ -13,7 +13,7 @@
 
 #### Borrow Rate Model
 
-$$Borrow APR= csw\times cs + cbw \times cb () + RateCurve Constant\div(1-u)$$ 
+$$Borrow APR= csw\times cs + cbw \times cb + RateCurve Constant\div(1-u)$$
 
 When  $$u$$ >0.999,
 
