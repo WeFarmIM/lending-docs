@@ -52,7 +52,7 @@ For assets that are not available on Compound or other money markets, Compound S
 * **Deposit interest**: interest that the depositor earned
 * **Deposit storage interest:** the interest that depositor accrued
 * **Deposit accrual interest:** the deposit interest that has not accrued
-* **Deposit Interest per block:** interest that user earned for every block
+* **Deposit Interest per block:** interest that users earn for every block
 * **BlocksPerYear:** annual expected blocks of the blockchain 
 
 **Formular:**
