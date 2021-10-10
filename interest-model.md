@@ -29,9 +29,9 @@ Based on different parameter sets, we have three different strategies: Conservat
 
 \| --- | --- | --- | --- |
 
-\| Compound Supply Rate Weight | 0.1 -|- 0.3 -|- 0.9 -|
+\| Compound Supply Rate Weight | 0.1 | 0.3 | 0.9 |
 
-\| Compound Borrow Rate Weight | 0.9 -|- 0.7 -|- 0.1 -|
+\| Compound Borrow Rate Weight | 0.9 | 0.7 | 0.1 |
 
 \| \_RateCurveConstant | 4 | 8 | 12 |
 
