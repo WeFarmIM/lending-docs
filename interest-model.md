@@ -9,7 +9,7 @@
 * **cb (Compound Borrow Rate)**: the real-time borrow rate on the money market
 * **csw (Compound Supply Rate Weight)**: the weight parameter of the Compound Supply Rate
 * **cbw (Compound Borrow Rate Weight)**: the weight parameter of the Compound Borrow Rate
-* **csr (Compound Supply Ratio)**: the percentage of capital deployed on money market
+* **cr (Compound Supply Ratio)**: the percentage of capital deployed on money market
 
 #### Borrow Rate Model
 
