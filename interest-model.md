@@ -5,11 +5,12 @@
 #### **Definitions:**
 
 * **u (utilization) **is the capital utilization rate of a certain token
+* c (Rate Curve Constant)
 * **cs (Compound Supply Rate)**: the real-time supply rate on the money market
 * **cb (Compound Borrow Rate)**: the real-time borrow rate on the money market
 * **csw (Compound Supply Rate Weight)**: the weight parameter of the Compound Supply Rate
 * **cbw (Compound Borrow Rate Weight)**: the weight parameter of the Compound Borrow Rate
-* **cr (Compound Supply Ratio)**: the percentage of capital deployed on money market
+* **r (Compound Supply Ratio)**: the percentage of capital deployed on money market
 
 #### Borrow Rate Model
 
