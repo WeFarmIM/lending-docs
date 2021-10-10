@@ -22,7 +22,7 @@ $$c \div (1-u) = c \div (1-0.999)= c \times 1000$$
 
 For assets that are not available on Compound or other money markets, Compound Supply Rate Weights=0, Compound Borrow Rate Weights=0,
 
-In summary, there are two factors that decided the Borrow APR, the prevailing market rate that is available in the market and the capital utilization rate in the WeFarm protocol. Also, it's a non-linear model. The borrowing interest can adapt quickly if the utilization of the pool approaches a relatively high level.
+In summary, two factors decided the Borrow APR, the prevailing market rate  available in the market and the capital utilization rate in the WeFarm protocol. Also, it's a non-linear model. The borrowing interest can adapt quickly if the utilization of the pool approaches a relatively high level.
 
 Based on different parameter sets, we have three different strategies: Conservative Mode, Moderate Model, and Aggressive Model. 
 
