@@ -4,13 +4,13 @@
 
 #### **Definitions:**
 
-* **u (utilization rate) **is the capital utilization rate of a certain token
+* **u (utilization rate) **is the capital utilization rate of a specific token
 * **c (Rate Curve Constant)**: 
 * **s (Compound Supply Rate)**: the real-time supply rate on the money market
 * **b (Compound Borrow Rate)**: the real-time borrow rate on the money market
 * **sw (Compound Supply Rate Weight)**: the weight parameter of the Compound Supply Rate
 * **bw (Compound Borrow Rate Weight)**: the weight parameter of the Compound Borrow Rate
-* **r (Compound Supply Ratio)**: the percentage of capital deployed on money market
+* **r (Compound Supply Ratio)**: the percentage of capital deployed on the money market
 
 #### Borrow Rate Model
 
@@ -34,7 +34,7 @@ Based on different parameter sets, we have three different strategies: Conservat
 
 \| Compound Borrow Rate Weight | 0.9 | 0.7 | 0.1 |
 
-\| \_RateCurveConstant | 4 | 8 | 12 |
+\| RateCurveConstant | 4 | 8 | 12 |
 
 Below is how the borrow interest rate curve varies at different capital utilization levels based on three strategies.
 
