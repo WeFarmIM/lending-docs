@@ -7,9 +7,9 @@
 * **u (utilization) **is the capital utilization rate of a certain token
 * **c (Rate Curve Constant)**: 
 * **sr (Compound Supply Rate)**: the real-time supply rate on the money market
-* **cb (Compound Borrow Rate)**: the real-time borrow rate on the money market
+* **br (Compound Borrow Rate)**: the real-time borrow rate on the money market
 * **srw (Compound Supply Rate Weight)**: the weight parameter of the Compound Supply Rate
-* **cbw (Compound Borrow Rate Weight)**: the weight parameter of the Compound Borrow Rate
+* **brw (Compound Borrow Rate Weight)**: the weight parameter of the Compound Borrow Rate
 * **r (Compound Supply Ratio)**: the percentage of capital deployed on money market
 
 #### Borrow Rate Model
@@ -40,7 +40,7 @@ Below is how the borrow interest rate curve varies at different capital utilizat
 
 #### Deposit Rate Model
 
-$$Deposit Rate= r \times sr + br \times u$$ 
+$$Deposit Rate= r \times sr + br \times u$$
 
 For assets that are not available on Compound or other money markets, Compound Supply Rate Weights=0, Compound Borrow Rate Weights=0
 
