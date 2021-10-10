@@ -1,7 +1,7 @@
 ---
 description: WeFarm protocol introduction
 ---
-# WeFarm.im
+# Introduction
 
 ## What is WeFarm?
 
@@ -26,4 +26,6 @@ For a deeper dive into the protocol, economics, and how it works, refer to the W
 The WeFarm Protocol is currently deployed on the following networks:
 
 * Ethereum
-*
+* Polygon (Under construction)
+* BSC (Under construction)
+* OKChain (Under construction)
