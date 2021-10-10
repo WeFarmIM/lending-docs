@@ -40,7 +40,7 @@ Below is how the borrow interest rate curve varies at different capital utilizat
 
 #### Deposit Rate Model
 
-$$Deposit Rate= r \times cs +BorrowRate\times u$$ 
+$$Deposit Rate= r \times cs + cbr \times u$$ 
 
 For assets that are not available on Compound or other money markets, Compound Supply Rate Weights=0, Compound Borrow Rate Weights=0
 
