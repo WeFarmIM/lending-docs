@@ -25,13 +25,11 @@ In summary, there are two factors that decided the Borrow APR, the prevailing ma
 
 Based on different parameter sets, we have three different strategies: Conservative Mode, Moderate Model, and Aggressive Model. 
 
-\|-|-|
+\|- Parameters -|- Conservative Model -|- Moderate Model -|- Aggressive Model -|
 
+\|- Compound Supply Rate Weight -|- 0.1 -|- 0.3 -|- 0.9 -|
 
-
-\|- Parameters -|- Conservative Model -|- Moderate Model -|- 
-
- Aggressive Model Compound Supply Rate Weight 0.1 0.3 0.9 Compound Borrow Rate Weight 0.9 0.7 0.1 \_RateCurveConstant 4 8 12 Below is how the borrow interest rate curve varies at different capital utilization levels based on three strategies.
+\|-  Compound Borrow Rate Weight 0.9 0.7 0.1 \_RateCurveConstant 4 8 12 Below is how the borrow interest rate curve varies at different capital utilization levels based on three strategies.
 
 #### Deposit Rate Model
 
