@@ -4,7 +4,7 @@ WeFarm Savings protocol aggregates crypto deposits from lenders to the smart con
 
 ## Capital Reservation Ratio and Compound Ratio
 
-The Compound protocol provides cToken for all available digital assets (Ether, USD Coin, Augur, Dai, Sai, Wrapped BTC, Ox, Basic Attention Token). This enables WeFarm to supply/withdraw assets to Compound to improve the utilization rate of WeFarm. 
+The Compound protocol, which provides cToken for all available digital assets (Ether, USD Coin, Augur, Dai, Sai, Wrapped BTC, Ox, Basic Attention Token), enables WeFarm to supply/withdraw assets to Compound to improve the utilization rate of WeFarm.
 
 WeFarm auto supplies loan currency to “Compound Network” when capital reserve ratio (R) increases to a certain level, and auto withdraws loan currency from “Compound Network” when capital reservation ratio (R) drops to a range between 0 and 10. Here are the definitions of  Capital Utilization Rate (U ), Capital Compound Ratio (C), and Capital reserve ratio (R).
 
