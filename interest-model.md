@@ -63,6 +63,6 @@ $$Deposit Interest Per Block = (Deposit Principle+Deposit Storage Interest) \tim
 
 $$DepositInterest(block_t)=DepositInterest(block_t -_1))+DepositInterestPerBlock$$ 
 
-**BorrowAPR** will be updated in the contract if there were any users who have deposits of the token performs a transaction
+**BorrowAPR** will be updated in the contract if any of the token depositors perform a transaction.
 
 The interest earned between the last transaction block of the user and the latest transaction block will be accrued if the user performed a transaction and will be added to the **Deposit Storage Interest. **
