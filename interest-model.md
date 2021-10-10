@@ -5,7 +5,7 @@
 #### **Definitions:**
 
 * **u (utilization) **is the capital utilization rate of a certain token
-* c (Rate Curve Constant)
+* **c (Rate Curve Constant)**: 
 * **cs (Compound Supply Rate)**: the real-time supply rate on the money market
 * **cb (Compound Borrow Rate)**: the real-time borrow rate on the money market
 * **csw (Compound Supply Rate Weight)**: the weight parameter of the Compound Supply Rate
@@ -14,7 +14,7 @@
 
 #### Borrow Rate Model
 
-$$Borrow APR= csw\times cs + cbw \times cb + RateCurve Constant\div(1-u)$$
+$$Borrow APR= csw \times cs + cbw \times cb + c \div (1-u)$$​
 
 When  $$u$$ >0.999,
 
