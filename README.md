@@ -1,7 +1,7 @@
 ---
 description: WeFarm Protocol Introduction
 ---
-# Introduction
+# 😀 Introduction
 
 ## What is WeFarm?
 
