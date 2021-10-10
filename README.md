@@ -13,7 +13,7 @@ The following documentation describes the fundamentals of the protocol and how t
 
 ### Basic overview
 
-The WeFarm protocol codebase is hosted on Github.
+The WeFarm protocol codebase is hosted on [Github](https://github.com/WeFarmIM).
 
 The protocol is implemented as a set of **smart contracts** on top of the Ethereum blockchain. Smart contracts guarantee safety and do not require a middleman. 
 
