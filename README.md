@@ -1,5 +1,5 @@
 ---
-description: WeFarm protocol introduction
+description: WeFarm Protocol Introduction
 ---
 # Introduction
 
