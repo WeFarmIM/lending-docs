@@ -29,9 +29,9 @@ Based on different parameter sets, we have three different strategies: Conservat
 
 
 
-Parameters
+\|- Parameters -|- Conservative Model -|- Moderate Model -|- 
 
- Conservative Model Moderate Model Aggressive Model Compound Supply Rate Weight 0.1 0.3 0.9 Compound Borrow Rate Weight 0.9 0.7 0.1 \_RateCurveConstant 4 8 12 Below is how the borrow interest rate curve varies at different capital utilization levels based on three strategies.
+ Aggressive Model Compound Supply Rate Weight 0.1 0.3 0.9 Compound Borrow Rate Weight 0.9 0.7 0.1 \_RateCurveConstant 4 8 12 Below is how the borrow interest rate curve varies at different capital utilization levels based on three strategies.
 
 #### Deposit Rate Model
 
