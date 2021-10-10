@@ -18,7 +18,7 @@ $$Borrow APR= csw \times cs + cbw \times cb + c \div (1-u)$$​
 
 When  $$u$$ >0.999,
 
-$$Rate Curve Constant\div(1-u) = Rate Curve Constant \div(1-0.999)= RateCurveConstant\times1000$$** **
+$$c \div (1-u) = c \div (1-0.999)= c \times 1000$$
 
 For assets that are not available on Compound or other money markets, Compound Supply Rate Weights=0, Compound Borrow Rate Weights=0,
 
