@@ -3,7 +3,7 @@ description: WeFarm Protocol Introduction
 coverY: 0
 ---
 
-# 😀 Introduction
+# Introduction
 
 ## What is WeFarm?
 
@@ -21,7 +21,7 @@ Users and applications can interact directly with the smart contracts, the block
 
 WeFarm Protocol is developed with security as a priority, having been audited by multiple auditors.
 
-For a deeper dive into the protocol, economics, and how it works, refer to the White Paper.
+For a deeper dive into the protocol, economics, and how it works, refer to the [White Paper](https://github.com/WeFarmIM/Whitepaper-1.0).
 
 ## Network
 

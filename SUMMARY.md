@@ -1,6 +1,6 @@
 # Table of contents
 
-* [😀 Introduction](README.md)
+* [Introduction](README.md)
 * [Protocol Overview](protocol-overview.md)
 * [Interest Model](interest-model.md)
 * [Risks Control Model](risks-control-model.md)
