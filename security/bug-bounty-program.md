@@ -42,6 +42,6 @@ Smart Contracts Impacts:
 
 **Disclosure**
 
-Submit all bug bounty disclosures to bibicat@wefarm.im. The disclosure must include clear and concise steps to reproduce the discovered vulnerability in written or video format. DeFiner will follow up promptly with acknowledgment of the disclosure.
+Submit all bug bounty disclosures to bibicat@wefarm.im. The disclosure must include clear and concise steps to reproduce the discovered vulnerability in written or video format. WeFarm will follow up promptly with acknowledgment of the disclosure.
 
 _The WeFarm dev team reserves the right to reject submissions and alter the terms and conditions of this program._
