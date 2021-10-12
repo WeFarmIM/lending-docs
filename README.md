@@ -1,6 +1,5 @@
 ---
 description: WeFarm Protocol Introduction
-coverY: 0
 ---
 
 # Introduction
