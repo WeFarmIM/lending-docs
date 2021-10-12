@@ -1,6 +1,8 @@
 # Protocol Overview
 
-WeFarm Savings protocol aggregates crypto deposits from lenders to the smart contract for users to borrow against the collateral asset they deposited. If there is unused capital in the contract, the protocol will deploy money automatically to market protocols like Compound, AAVE, etc. 
+WeFarm Savings protocol aggregates crypto deposits from lenders to the smart contract for users to borrow against the collateral asset they deposited. If there is free capital in the contract, the protocol will deploy money automatically to market protocols like Compound, AAVE, etc. 
+
+![](<.gitbook/assets/protocol overview.png>)
 
 ## Capital Reservation Ratio and Compound Ratio
 
@@ -13,3 +15,4 @@ WeFarm auto supplies loan currency to “Compound Network” when capital reserv
 3. Capital reserve ratio (R) = 1 - U - C.
 
 WeFarm always keeps the R between 10 and 20.  When R > 20,   it should signal Savings Pool Smart Contract to deposit to Compound, which increases the value of C and reduces remaining reserve fund to 15% of total deposit. When R < 10, it should signal Savings Pool Smart Contract to withdraw from the money market, which decreases the value of C and increases the remaining reserve fund to 15% of the total deposit. (This reserve ratio range is globally configurable.)
+
