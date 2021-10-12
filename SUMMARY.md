@@ -7,6 +7,13 @@
 * [Smart Contract Modules](smart-contract-modules/README.md)
   * [Overview](smart-contract-modules/overview.md)
   * [SavingAccount](smart-contract-modules/savingaccount.md)
+  * [Bank](smart-contract-modules/bank.md)
+  * [Accounts](smart-contract-modules/accounts.md)
+  * [AccountTokenLib](smart-contract-modules/accounttokenlib.md)
+  * [Oracle](smart-contract-modules/oracle.md)
+  * [Modifiers](smart-contract-modules/modifiers.md)
+  * [Delayed Upgrades](smart-contract-modules/delayed-upgrades.md)
+* [WeFarm SDK](wefarm-sdk.md)
 
 ## SECURITY
 
