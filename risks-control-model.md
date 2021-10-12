@@ -21,16 +21,7 @@ Please check the pseudocode description section for a cleaner description.
 
 To be liquidatable, an account's LTV should be between 85%\~95%. If the LTV is more significant than 85%, this account is at high risk of not repaying its debt. But if the LTV is larger than 95%, the collateral of the account is not enough for other accounts to liquidate it since the other account will buy the collateral of this account at a discount ratio of 5%.
 
-### Example
-
-Let's assume that WeFarm supports only four kinds of tokens, and they're ETH, USDT, DAI, and USDC. Their liquidity order is ETH>USDT>DAI>USDC. And there are no interests involved in this process for simplification.
-
-| Token Name     | ETH | USDT | DAI | USDC |
-| -------------- | --- | ---- | --- | ---- |
-| Liquidity Rank | 1   | 2    | 3   | 4    |
-| Price          | 300 | 1    | 1   | 1    |
-
-#### **Terminology:**
+### **Terminology**
 
 **CBB**: Current borrow balance = principal + accrued interest
 
@@ -58,7 +49,16 @@ $$
 UAAL= (CBB – CCV*ILTV)/(1-LDR-ILTV)
 $$
 
-#### 1. Target account has one kind of collateral, the caller tries to liquidate and can liquidate fully
+## Examples
+
+Let's assume that WeFarm supports only four kinds of tokens, and they're ETH, USDT, DAI, and USDC. Their liquidity order is ETH>USDT>DAI>USDC. And there are no interests involved in this process for simplification.
+
+| Token Name     | ETH | USDT | DAI | USDC |
+| -------------- | --- | ---- | --- | ---- |
+| Liquidity Rank | 1   | 2    | 3   | 4    |
+| Price          | 300 | 1    | 1   | 1    |
+
+### 1. Target account has one kind of collateral, the caller tries to liquidate and can liquidate fully
 
 Before liquidation:
 
@@ -95,7 +95,7 @@ User2:
 
 1. Deposits: 18.6 DAI, 85.7 USDT
 
-#### 2. Target account has one kind of collateral, the caller tries to liquidate and can only liquidate partially:
+### 2. Target account has one kind of collateral, the caller tries to liquidate and can only liquidate partially:
 
 Before Liquidation:
 
@@ -134,7 +134,7 @@ User2:
 
 Notice here although User2 doesn't fully liquidate User1, User1 is not liquidatable after liquidation. This is because there is a gap between the initial borrow LTV and the LTV to become liquidatable.
 
-#### **3. Target account has multiple kinds of collateral, and the caller tries to liquidate the user entirely.**
+### **3. Target account has multiple kinds of collateral, and the caller tries to liquidate the user entirely.**
 
 Before liquidation:
 
@@ -170,7 +170,7 @@ User2:
 
 1. Deposits: 50 USDT, 100 - 50 \* 0.95 = 52.5 DAI
 
-Then let's see DAI. We skip it too, since the user doesn't have any deposit in DAI either. Finally, we use USDC.
+We also skip `DAI` since the user doesn't have any deposit in DAI either. Finally, we use USDC.
 
 $$
 UAAL=(42.5-1*50*0.6)/(1-0.05-0.6)=35.7

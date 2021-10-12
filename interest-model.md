@@ -1,8 +1,8 @@
 # Interest Model
 
-### **Interest Rate Calculations**
+## **Interest Rate Calculations**
 
-#### **Definitions:**
+### **Definitions**
 
 * **u (utilization rate) **is the capital utilization rate of a specific token
 * **c (Rate Curve Constant)**: 
@@ -12,7 +12,7 @@
 * **bw (Compound Borrow Rate Weight)**: the weight parameter of the Compound Borrow Rate
 * **r (Compound Supply Ratio)**: the percentage of capital deployed on the money market
 
-#### Borrow Rate Model
+### Borrow Rate Model
 
 $$Borrow APR= sw \times s + bw \times b + c \div (1-u)$$
 
@@ -34,15 +34,17 @@ We have three different strategies base on different parameter sets: Conservativ
 
 Below is how the borrow interest rate curve varies at different capital utilization levels based on three strategies.
 
-#### Deposit Rate Model
+![Interest Model](<.gitbook/assets/Interest Model.png>)
+
+### Deposit Rate Model
 
 $$Deposit Rate= r \times s + b \times u$$
 
 For assets that are not available on Compound or other money markets, Compound Supply Rate Weights=0, Compound Borrow Rate Weights=0
 
-### Interest Accounting System
+## Interest Accounting System
 
-**Definitions:**
+### **Definitions**
 
 * **Deposit principle**: the crypto assets that users deposited
 * **Deposit interest**: interest that the depositor earned
@@ -51,7 +53,7 @@ For assets that are not available on Compound or other money markets, Compound S
 * **Deposit Interest per block:** interest that users earn for every block
 * **BlocksPerYear:** annual expected blocks of the blockchain 
 
-**Formular:**
+### **Formular**
 
 ****$$Deposit Interest Rate Per Block = BorrowAPR\div BlocksPerYear$$ 
 

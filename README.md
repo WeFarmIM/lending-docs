@@ -7,7 +7,7 @@ coverY: 0
 
 ## What is WeFarm?
 
-WeFarm is a decentralized finance (DeFi) network for crypto savings, loans, and payments. Powered by blockchain technology, WeFarm enables users to effortlessly lend, borrow, and earn digital assets within a global network. WeFarm removes the friction and costs associated with conventional financial services and instead offers maximum flexibility to set one’s own rates and terms.WeFarm allows those embracing the new, digital economy to unlock instant value from their assets.
+WeFarm is decentralized finance (DeFi) network for crypto savings, loans, and payments. Powered by blockchain technology, WeFarm enables users to effortlessly lend, borrow, and earn digital assets within a global network. WeFarm removes the friction and costs associated with conventional financial services and instead offers maximum flexibility to set one’s own rates and terms. WeFarm allows those who are embracing the new, digital economy to unlock instant value from their assets.
 
 The following documentation describes the fundamentals of the protocol and how to interact with it. Please join the [#dev](https://discord.gg/wma7JaTUng) room in the [WeFarm community Discord](https://discord.gg/yk9jDwU8zq) server; our team and members of the community look forward to helping you build on top of WeFarm.
 
@@ -23,7 +23,7 @@ WeFarm Protocol is developed with security as a priority, having been audited by
 
 For a deeper dive into the protocol, economics, and how it works, refer to the [White Paper](https://github.com/WeFarmIM/Whitepaper-1.0).
 
-## Network
+## Networks
 
 The WeFarm Protocol is currently deployed on the following networks:
 

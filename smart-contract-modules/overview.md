@@ -4,7 +4,7 @@ description: Overview of Core Smart Contracts
 
 # Overview
 
-### Contracts
+## Contracts
 
 We have five central contracts in our protocol, `SavingAccount`, `Accounts`, `Bank`, `TokenRegistry`, and `GlobalConfig`.
 
@@ -16,25 +16,25 @@ The workflow of a transaction to WeFarm works as the following diagram. The user
 
 The TokenRegistry and GlobalConfig contracts are to save data, and the three central contracts will use it. Like all three contracts' addresses, so in these three contracts, they only need to keep the global config's address in the contract's memory space.
 
-### SavingAccount
+## SavingAccount
 
 This contract is the interface that our users will mainly interact with. Users will send transactions to this contract to `deposit`, `withdraw`, `borrow`, `repay`,  `withdrawAll`, and `liquidate` functions to interact with our protocol. For each operation, this contract is the contract that receives and sends out the tokens. Whenever users send a transaction to the `SavingAccount` contract, it will emit an event to log this transaction.
 
-#### Borrowing Power
+### Borrowing Power
 
 The borrowing power of a user is related to the collateral that the user deposited into our system. The contract obtains the price from Chainlink's oracle. If the LTV of a user is too large, then it is at the risk of being liquidated. Currently, we set the liquidation threshold to around 0.8. 
 
-### Bank
+## Bank
 
 This contract is to create rate indexes whenever there is an interaction with our `SavingAccount` contract. We are using rate indexes to compute the borrow and deposit interests. Given the different indexes, we calculate the user balances here. Whenever the contract creates an index, this contract will emit an event.
 
-#### Rate Index 
+### Rate Index 
 
 i and j here represent two different blocks.
 
 $$RateIndex_i = RateIndex_j * (1 + RatePerBlock_{ij} * (i - j))$$ 
 
-#### Balance
+### Balance
 
 i and j here represent two different blocks.
 
@@ -42,19 +42,19 @@ $$Balance_i = Balance_j \times RateIndex_j \div RateIndex_i$$
 
 Borrow balances and deposit balances both use this method to compute.
 
-### Accounts
+## Accounts
 
 This contract is to record the balances of each user account for different tokens. This contract also contains a BitMap which will quickly show whether a user has depositings/borrowings for each token while costs less gas.
 
-### GlobalConfig
+## GlobalConfig
 
 This contract stores all the contract's addresses, so all other contracts can only keep GlobalConfig's address to call functions of other contracts. It is also used to config the reserve ratio and community fund ratio of the protocol.
 
-### TokenRegistry
+## TokenRegistry
 
 This contract records the meta-data about each contract-supported token. We can add new supported tokens using this contract.
 
-#### Current Supported Tokens
+### Current Supported Tokens
 
 1. DAI
    1. Token Address: 0x6b175474e89094c44da98b954eedeac495271d0f
@@ -69,7 +69,7 @@ This contract records the meta-data about each contract-supported token. We can 
    1. Token Address: 0x0000000000085d4780B73119b644AE5ecd22b376
    2. cToken Address: Not Compound supported.
 
-### Upgradability
+## Upgradability
 
 For `SavingAccount`, `Accounts`, and `Bank` contracts, we are using OpenZeppelin proxies to conduct the upgrading process. So other than the contracts, we also have an OpenZeppelin proxy contract for each of these three central contracts. We can never change the proxy contract addresses, but the contract of the underlying implementation is changeable.
 
